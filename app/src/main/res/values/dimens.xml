@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_buttom">10dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="margin_right">5dp</dimen>
+    <dimen name="margin_item">5dp</dimen>
+    <dimen name="text_item">18sp</dimen>
+    <dimen name="margin_right_item">10dp</dimen>
+    <dimen name="main_buttom">10dp</dimen>
+    <dimen name="main_size">20sp</dimen>
+    <dimen name="lmain_top">10dp</dimen>
+</resources>

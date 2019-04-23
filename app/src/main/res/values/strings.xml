@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Navigator</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_favorites">Welcome To Favorites!</string>
+    <string name="last_search_results">here are the results of your last search</string>
+    <string name="connection_unavailable">Sorry, Connection is unavailable at the moment</string>
+    <string name="menu_distance">distance</string>
+    <string name="favorites">favorites</string>
+    <string name="try_again_internet_btn">Let\'s Try Again!</string>
+    <string name="choose_a_place_from_the_places_tab">Choose a place from the places tab!</string>
+    <string name="name">Name:</string>
+    <string name="address">Address:</string>
+    <string name="distance">Distance:</string>
+    <string name="search_term">Search Term</string>
+    <string name="search_nearby">Search Nearby</string>
+    <string name="place_distance">Place distance</string>
+    <string name="place_name">Place name</string>
+    <string name="share">Share</string>
+    <string name="add_to_favorites">Add To Favorites</string>
+    <string name="delete_favorites">delete favorites</string>
+    <string name="show_map">Show Map</string>
+    <string name="back_to_results">Back To Results</string>
+    <string name="back_to_search_results">Back To Search Results</string>
+</resources>

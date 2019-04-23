@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/main_buttom">
+
+        <Button
+            android:id="@+id/btn_show_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_map"
+            android:textSize="@dimen/main_size"
+            android:visibility="invisible"
+            />
+
+        <Button
+            android:id="@+id/btn_retun_to_results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back_to_results"
+            android:textSize="@dimen/main_size"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <include layout="@layout/base_places"/>
+</LinearLayout>

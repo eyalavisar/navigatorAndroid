@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_item_distance_setting"
+        android:orderInCategory="300"
+        android:title="@string/menu_distance"
+        android:icon="@drawable/ic_distance"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/menu_item_favorites"
+        android:orderInCategory="200"
+        android:title="@string/favorites"
+        android:icon="@drawable/ic_favorites"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/menu_item_delete_favorites"
+        android:orderInCategory="250"
+        android:title="@string/delete_favorites"
+        app:showAsAction="never"></item>
+</menu>

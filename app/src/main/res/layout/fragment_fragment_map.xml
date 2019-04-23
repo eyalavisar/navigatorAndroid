@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <FrameLayout
+        tools:context=".fragments.FragmentMap"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.gms.maps.MapView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/map">
+    </com.google.android.gms.maps.MapView>
+
+</FrameLayout>
