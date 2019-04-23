@@ -47,7 +47,6 @@ public class NetworkUtils {
                         .appendQueryParameter(LAT_LNG, queryParams[0])
                         .appendQueryParameter(RADIUS, queryParams[1])
                         .appendQueryParameter("OrderByDistance", "1")
-//                        .appendQueryParameter("limit", "3") // TODO: 22-Jan-19 debug only
                         .build();
             }
             else {
@@ -59,7 +58,6 @@ public class NetworkUtils {
                         .appendQueryParameter(RADIUS, queryParams[1])
                         .appendQueryParameter(QUERY, queryParams[2])
                         .appendQueryParameter("OrderByDistance", "1")
-//                        .appendQueryParameter("limit", "3") // TODO: 22-Jan-19 debug only
                         .build();
             }
 
